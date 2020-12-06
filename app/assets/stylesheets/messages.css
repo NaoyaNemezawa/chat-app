@@ -11,12 +11,38 @@
 .side_header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current_user_name a{
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.new_chat a{
+  padding: 14px;
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .side_menu{
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat_room a{
+  color: white;
+  padding: 20px 0 40px;
+  display: block;
 }
 
 .main_chat{
