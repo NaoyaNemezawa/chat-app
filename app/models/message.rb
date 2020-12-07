@@ -1,6 +1,6 @@
 class Message < ApplicationRecord
-  bilongs_to :user
-  bilongs_to :room
+  belongs_to :user
+  belongs_to :room
     
-  end
+  # end
 end
