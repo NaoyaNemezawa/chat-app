@@ -1,0 +1,155 @@
+.wrapper{
+  display: flex;
+}
+
+.side_ber{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side_header{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current_user_name a{
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.new_chat a{
+  padding: 14px;
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  font-size: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.side_menu{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat_room a{
+  color: white;
+  padding: 20px 0 40px;
+  display: block;
+}
+
+.main_chat{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+.main_header{
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.chatroom_name{
+  font-size: 24px;
+  color: #333;
+  padding-top: 36px;
+}
+
+.main_header_right{
+  margin-top: 40px;
+}
+
+.chatroom_close a{  
+  padding: 20px;
+  border: 1px solid darkred;
+  /* margin-top: 20px; */
+  color: darkred;
+  /* padding-right: 40px; */
+}
+
+.main_messages{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0 ;
+}
+
+.messenger{
+  display: flex;
+  padding: 10px 0px;
+  overflow: scroll;
+  /* margin-bottom: 40px; */
+}
+
+/* .messenger p{ */
+  /* padding: 10px 0; */
+/* } */
+
+.messenger_name{
+  font-size: 16px;
+  color: #434A54;
+  padding-right: 10px;
+}
+
+.date{
+  font-size: 12px;
+  color: #999;
+}
+
+.message p{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.main_footer{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+.form{
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.type_message{
+  height: 50px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+}
+
+.form_image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.send_btn{
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
