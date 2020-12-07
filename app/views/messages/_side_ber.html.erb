@@ -12,9 +12,9 @@
 <div class = "side_menu">
   <div class = "chat_room">
     <% current_user.rooms.each do |room| %>
-    <%# <%= link_to "room.name"%> 
+    <%= link_to room.name, room_messages_path(room) %> 
     <%# <% end %> 
-    <a href = "#"><%= room.name %></a>
+    <%# <a href = "#"><%= room.name %></a>
     <%# <a href = "#">testroom2</a> %>
     <% end %>
   </div>
